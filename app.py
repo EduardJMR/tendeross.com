@@ -6,7 +6,7 @@ app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://kbalvhbvezzejl:f8530c879cf
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 
 database = SQLAlchemy(app)
-from models.usuario import Usuario
+from models.usuarios import Usuario
 
 @app.route('/')
 def home():
